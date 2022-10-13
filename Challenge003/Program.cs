@@ -1,0 +1,1 @@
+﻿Console.WriteLine("What do you call a bear with no teeth?" + Environment.NewLine + "A gummy bear!");
