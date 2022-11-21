@@ -51,6 +51,9 @@ while (true) {
         {
             Console.WriteLine("Thank you for creating an account. Your data has been hashed, salted and saved.");
             Console.WriteLine($"Your hashed password is {hashedPass}");
+            Console.WriteLine("Please enter your super secure data!");
+            superSecureData = Console.ReadLine();
+            Console.WriteLine("Your super secure data has been saved! :)");
         }
         else
         {
@@ -82,9 +85,6 @@ while (true) {
             {
                 access = true;
                 Console.WriteLine($"{username}, your password has been successfully hashed and verified!");
-                Console.WriteLine("Please enter your super secure data!");
-                superSecureData = Console.ReadLine();
-                Console.WriteLine("Your super secure data has been saved! :)");
             }
             else
             {
